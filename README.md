@@ -1,4 +1,4 @@
-# Estudos de Java
+# Java
 
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 ![Status](https://img.shields.io/badge/Status-Em%20Desenvolvimento-yellow?style=for-the-badge)
@@ -28,7 +28,7 @@ Registrar e organizar meus estudos em Java, do básico ao avançado.
 
 ## 🛠 Tecnologias
 
-- Java  
+- Java ``21``
 - Visual Studio Code  
 - IntelliJ IDEA
 ---
