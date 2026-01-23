@@ -5,7 +5,7 @@ package Execicio.modulo2;
 import java.util.Objects;
 import java.util.Scanner;
 
-public class ControleDeFluxo {
+public class Exercicio1 {
     public static void main (String[] args) {
         Scanner scanner = new Scanner (System.in);
 

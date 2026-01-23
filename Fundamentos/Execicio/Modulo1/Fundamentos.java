@@ -8,7 +8,7 @@
 
 // fórmula: área=base X altura
 // Escreva um código que receba o nome e a idade de 2 pessoas e imprima a diferença de idade entre elas
-package Execicio;
+package Execicio.Modulo1;
 
 import java.util.Scanner;
 

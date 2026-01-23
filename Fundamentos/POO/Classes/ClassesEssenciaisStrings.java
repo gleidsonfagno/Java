@@ -1,10 +1,9 @@
 package POO.Classes;
 
-import java.util.Arrays;
 import java.util.Locale;
 import java.util.Scanner;
 
-public class ClassesEssenciais {
+public class ClassesEssenciaisStrings {
     public static void main(String[] args) {
         System.out.print("Gleidson");
         System.out.println("Fagno");

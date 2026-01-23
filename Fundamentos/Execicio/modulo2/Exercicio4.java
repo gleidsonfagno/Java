@@ -11,7 +11,19 @@ public class Exercicio4 {
         var scaner = new Scanner(System.in);
         System.out.println("Digite o primeiro numero: ");
         int number = scaner.nextInt();
-        boolean keepVerify = true
-                °/
+        boolean keepVerify = true;
+
+        while(keepVerify){
+            System.out.println("Informe outro numero para verificação: ");
+            int toVerify = scaner.nextInt();
+            if(toVerify < number) {
+                System.out.printf("Informe um número maior que %s \n", number);
+                continue;
+            }
+
+            int result = toVerify % number;
+            keepVerify = result == 0;
+            System.out.printf("%s %% %s = %s \n", toVerify, number, result);
+        }
     }
 }

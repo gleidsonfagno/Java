@@ -1,4 +1,4 @@
-package Execicio;
+package Execicio.Modulo1;
 
 import java.util.Scanner;
 
