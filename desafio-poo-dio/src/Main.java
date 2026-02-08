@@ -1,3 +1,4 @@
+import br.com.dio.desafio.doominio.Conteudo;
 import br.com.dio.desafio.doominio.Curso;
 import br.com.dio.desafio.doominio.Mentoria;
 
@@ -7,6 +8,7 @@ public class Main {
     public static void main(String[] args) {
         Curso curso1 = new Curso();
         Mentoria mentoria1 = new Mentoria();
+
         curso1.setTitulo("Curso 1 Java");
         curso1.setDescricao("Descrição do curso 1 Java");
         curso1.setCargaHoraria(8);
@@ -32,5 +34,9 @@ public class Main {
         mentoria1.setDataInicio(LocalDate.now());
 
         System.out.println(mentoria1);
+        Conteudo curso =  new Curso();
+
+        curso.setTitulo("Curso 1 Java");
+        System.out.println(curso);
     }
 }
