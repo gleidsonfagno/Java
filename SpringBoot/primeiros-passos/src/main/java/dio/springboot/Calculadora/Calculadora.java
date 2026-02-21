@@ -1,4 +1,4 @@
-package dio.springboot;
+package dio.springboot.Calculadora;
 
 import org.springframework.stereotype.Component;
 
