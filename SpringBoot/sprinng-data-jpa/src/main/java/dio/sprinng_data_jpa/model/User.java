@@ -3,7 +3,7 @@ package dio.sprinng_data_jpa.model;
 import jakarta.persistence.*;
 
 @Entity
-@Table(name = "users")
+@Table(name = "tab_users")
 public class User
 {
 	@Id
