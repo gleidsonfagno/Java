@@ -1,6 +1,6 @@
 package Execicio.InterfacesELambda;
 
-public record Squere(double side) implements GeometricForm {
+public record Square(double side) implements GeometricForm {
 
     @Override
     public double getArea() {
