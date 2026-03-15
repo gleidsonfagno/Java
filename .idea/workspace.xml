@@ -6,24 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="d4f0e822-2026-4bc7-821b-3388ffd81d08" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fundamentos/ArrayECollection/Array.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentos/ArrayECollection/Array.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fundamentos/ArrayECollection/Collection.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentos/ArrayECollection/Collection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fundamentos/Execicio/InterfacesELambda/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentos/Execicio/InterfacesELambda/Circle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fundamentos/Execicio/InterfacesELambda/GeometricForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentos/Execicio/InterfacesELambda/GeometricForm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fundamentos/Execicio/InterfacesELambda/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentos/Execicio/InterfacesELambda/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fundamentos/Execicio/InterfacesELambda/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentos/Execicio/InterfacesELambda/Rectangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fundamentos/Execicio/InterfacesELambda/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentos/Execicio/InterfacesELambda/Square.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fundamentos/Execicio/POO/Desfio.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentos/Execicio/POO/Desfio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fundamentos/POO/Interfaces_Lambdas/Computer.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentos/POO/Interfaces_Lambdas/Computer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fundamentos/POO/Interfaces_Lambdas/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentos/POO/Interfaces_Lambdas/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fundamentos/POO/Interfaces_Lambdas/MusicBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentos/POO/Interfaces_Lambdas/MusicBox.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fundamentos/POO/Interfaces_Lambdas/MusicPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentos/POO/Interfaces_Lambdas/MusicPlayer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fundamentos/POO/Interfaces_Lambdas/Smartphone.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentos/POO/Interfaces_Lambdas/Smartphone.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fundamentos/POO/Interfaces_Lambdas/VideoPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentos/POO/Interfaces_Lambdas/VideoPlayer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fundamentos/out/production/Fundamentos/POO/Heranca_e_Polimorfismo/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentos/out/production/Fundamentos/POO/Heranca_e_Polimorfismo/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringBoot/board" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/desafio-poo-dio/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/desafio-poo-dio/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sudoku" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +14,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
@@ -56,6 +41,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Java\Collections\src\List\OperacoesBasicas\CarrinhoDeCompras" />
       <recent name="D:\Java\SpringBoot" />
       <recent name="D:\Java" />
     </key>

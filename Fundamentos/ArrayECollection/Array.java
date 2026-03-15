@@ -2,7 +2,7 @@ package ArrayECollection;
 
 public class Array {
     public static void main(String[] args) {
-        Integer [] array = new Integer[6]; // definir estaticos {2,3,4,15,3};
+        Integer [] array = new Integer[6]; // definir estáticos {2,3,4,15,3};
 
         array[0] = 2;
         array[1] = 5;
