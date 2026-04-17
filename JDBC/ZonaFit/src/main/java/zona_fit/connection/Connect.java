@@ -9,7 +9,7 @@ public class Connect {
         var dataBase = "zona_fit_db";
         var url = "JDBC:mysql://localhost:3306/" + dataBase;
         var user = "root";
-        var password = "root";
+        var password = "282219";
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
             connect = DriverManager.getConnection(url, user, password);
