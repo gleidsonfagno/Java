@@ -7,7 +7,7 @@ public class Connect {
     public static Connection getConnection(){
         Connection connect = null;
         var dataBase = "zona_fit_db";
-        var url = "JDBC:mysql://localhost:3306/" + dataBase;
+        var url = "jdbc:mysql://localhost:3306/" + dataBase;
         var user = "root";
         var password = "282219";
         try {

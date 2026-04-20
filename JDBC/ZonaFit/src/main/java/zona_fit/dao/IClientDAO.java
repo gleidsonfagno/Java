@@ -1,11 +1,11 @@
-package zona_fit.dto;
+package zona_fit.dao;
 
 import zona_fit.domain.Client;
 
 import java.util.List;
 
-public interface IClientDto {
-    List<ClientDTO> ListClients();
+public interface IClientDAO {
+    List<Client> ListClients();
     boolean getClientsForId(Client client);
     boolean addClient(Client client);
     boolean updateClient(Client client);
