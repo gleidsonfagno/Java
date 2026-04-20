@@ -49,7 +49,31 @@ public class ClientDAO implements IClientDAO {
     }
 
     @Override
-    public boolean getClientsForId(Client client) {
+    public boolean getClientForId(Client client) {
+        PreparedStatement ps;
+        ResultSet rs;
+        Connection con = Connect.getConnection();
+        var sql = "SELECT * FROM cliente WHERE id = ?";
+        try {
+            ps = con.prepareStatement(sql);
+            ps.setInt(1, client.getId());
+            rs = ps.executeQuery();
+
+            if (rs.next()) {
+                client.setName(rs.getString("name"));
+                client.setSurname(rs.getString("surname"));
+                client.setMembership(rs.getInt("membership"));
+                return true;
+            }
+        }catch (Exception e){
+            System.out.println("Error get client for id:" + e);
+        }finally {
+            try {
+                con.close();
+            }catch (Exception e){
+                System.out.println("Error close connection: " + e);
+            }
+        }
         return false;
     }
 
@@ -74,5 +98,16 @@ public class ClientDAO implements IClientDAO {
         IClientDAO clientDAO = new ClientDAO();
         var clients  = clientDAO.ListClients();
         clients.forEach(System.out::println);
+
+        // Get clients for id
+        var client1 = new Client(3);
+        System.out.println("Client and for search: " + client1 + "\n");
+        var encontrado = clientDAO.getClientForId(client1);
+        if (encontrado){
+            System.out.println("Client :" + client1);
+        }else {
+            System.out.println("Not Found id client...");
+        }
+
     }
 }
